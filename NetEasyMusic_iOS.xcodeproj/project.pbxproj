@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8715E1EA1DB277CA00B42464 /* HYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715E1E91DB277CA00B42464 /* HYPageView.m */; };
+		8715E1EE1DB2796C00B42464 /* PlayListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715E1EC1DB2796C00B42464 /* PlayListCollectionViewCell.m */; };
+		8715E1EF1DB2796C00B42464 /* PlayListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8715E1ED1DB2796C00B42464 /* PlayListCollectionViewCell.xib */; };
 		8755D1D91D80F0D000709561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1D81D80F0D000709561 /* main.m */; };
 		8755D1DC1D80F0D000709561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1DB1D80F0D000709561 /* AppDelegate.m */; };
 		8755D1DF1D80F0D000709561 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1DE1D80F0D000709561 /* ViewController.m */; };
@@ -16,8 +19,6 @@
 		8755D1F21D80F0D000709561 /* NetEasyMusic_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1F11D80F0D000709561 /* NetEasyMusic_iOSTests.m */; };
 		8755D1FD1D80F0D000709561 /* NetEasyMusic_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1FC1D80F0D000709561 /* NetEasyMusic_iOSUITests.m */; };
 		87AEF2F71D8D9BA700A18220 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AEF2F61D8D9BA700A18220 /* DiscoverViewController.m */; };
-		87AEF2FC1D8D9D0D00A18220 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AEF2FB1D8D9D0D00A18220 /* iCarousel.m */; };
-		87AEF3001D8D9D3800A18220 /* XTSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AEF2FF1D8D9D3800A18220 /* XTSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8715E1E81DB277CA00B42464 /* HYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPageView.h; sourceTree = "<group>"; };
+		8715E1E91DB277CA00B42464 /* HYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPageView.m; sourceTree = "<group>"; };
+		8715E1EB1DB2796C00B42464 /* PlayListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayListCollectionViewCell.h; sourceTree = "<group>"; };
+		8715E1EC1DB2796C00B42464 /* PlayListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayListCollectionViewCell.m; sourceTree = "<group>"; };
+		8715E1ED1DB2796C00B42464 /* PlayListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayListCollectionViewCell.xib; sourceTree = "<group>"; };
 		8755D1D41D80F0D000709561 /* NetEasyMusic_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEasyMusic_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8755D1D81D80F0D000709561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8755D1DA1D80F0D000709561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,10 +62,6 @@
 		8755D1FE1D80F0D000709561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87AEF2F51D8D9BA700A18220 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		87AEF2F61D8D9BA700A18220 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
-		87AEF2FA1D8D9D0D00A18220 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		87AEF2FB1D8D9D0D00A18220 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		87AEF2FE1D8D9D3800A18220 /* XTSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSegmentControl.h; sourceTree = "<group>"; };
-		87AEF2FF1D8D9D3800A18220 /* XTSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSegmentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8715E1E71DB277CA00B42464 /* HYPageView */ = {
+			isa = PBXGroup;
+			children = (
+				8715E1E81DB277CA00B42464 /* HYPageView.h */,
+				8715E1E91DB277CA00B42464 /* HYPageView.m */,
+			);
+			path = HYPageView;
+			sourceTree = "<group>";
+		};
 		8755D1CB1D80F0D000709561 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +173,9 @@
 		87AEF2F21D8D94FA00A18220 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8715E1EB1DB2796C00B42464 /* PlayListCollectionViewCell.h */,
+				8715E1EC1DB2796C00B42464 /* PlayListCollectionViewCell.m */,
+				8715E1ED1DB2796C00B42464 /* PlayListCollectionViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -187,28 +201,9 @@
 		87AEF2F81D8D9CC400A18220 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				87AEF2FD1D8D9D3800A18220 /* XTSegmentControl */,
-				87AEF2F91D8D9CEB00A18220 /* iCarousel */,
+				8715E1E71DB277CA00B42464 /* HYPageView */,
 			);
 			name = Vendor;
-			sourceTree = "<group>";
-		};
-		87AEF2F91D8D9CEB00A18220 /* iCarousel */ = {
-			isa = PBXGroup;
-			children = (
-				87AEF2FA1D8D9D0D00A18220 /* iCarousel.h */,
-				87AEF2FB1D8D9D0D00A18220 /* iCarousel.m */,
-			);
-			name = iCarousel;
-			sourceTree = "<group>";
-		};
-		87AEF2FD1D8D9D3800A18220 /* XTSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				87AEF2FE1D8D9D3800A18220 /* XTSegmentControl.h */,
-				87AEF2FF1D8D9D3800A18220 /* XTSegmentControl.m */,
-			);
-			path = XTSegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8715E1EF1DB2796C00B42464 /* PlayListCollectionViewCell.xib in Resources */,
 				8755D1E71D80F0D000709561 /* LaunchScreen.storyboard in Resources */,
 				8755D1E41D80F0D000709561 /* Assets.xcassets in Resources */,
 				8755D1E21D80F0D000709561 /* Main.storyboard in Resources */,
@@ -345,10 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8755D1DF1D80F0D000709561 /* ViewController.m in Sources */,
-				87AEF3001D8D9D3800A18220 /* XTSegmentControl.m in Sources */,
-				87AEF2FC1D8D9D0D00A18220 /* iCarousel.m in Sources */,
 				87AEF2F71D8D9BA700A18220 /* DiscoverViewController.m in Sources */,
 				8755D1DC1D80F0D000709561 /* AppDelegate.m in Sources */,
+				8715E1EA1DB277CA00B42464 /* HYPageView.m in Sources */,
+				8715E1EE1DB2796C00B42464 /* PlayListCollectionViewCell.m in Sources */,
 				8755D1D91D80F0D000709561 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
