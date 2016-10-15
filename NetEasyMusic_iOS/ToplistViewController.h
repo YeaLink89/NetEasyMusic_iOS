@@ -1,5 +1,5 @@
 //
-//  PlayListCollectionViewCell.h
+//  ToplistViewController.h
 //  NetEasyMusic_iOS
 //
 //  Created by chenhao on 16/10/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayListCollectionViewCell : UICollectionViewCell
+@interface ToplistViewController : UIViewController
 
 @end

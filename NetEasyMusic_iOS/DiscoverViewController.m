@@ -8,7 +8,6 @@
 
 #import "DiscoverViewController.h"
 #import "HYPageView.h"
-#import "PlayListCollectionViewCell.h"
 
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 
@@ -32,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSArray *defaultTitles = @[@"个性推荐",@"歌单", @"主播电台", @"排行榜"];
-    HYPageView *pageView = [[HYPageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) withTitles:defaultTitles withViewControllers:nil withParameters:nil];
+    HYPageView *pageView = [[HYPageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) withTitles:defaultTitles withViewControllers:@[@"RemdViewController",@"PlaylistViewController", @"RadioStationViewController", @"ToplistViewController"] withParameters:nil];
     pageView.isTranslucent = NO;
     pageView.selectedColor = [UIColor redColor];
     pageView.unselectedColor = [UIColor blackColor];
