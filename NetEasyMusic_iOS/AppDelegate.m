@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 #import "DiscoverViewController.h"
+#import "MyMusicViewController.h"
+#import "FriendViewController.h"
+#import "AccountViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,49 +23,49 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UITabBarController *rootController = [[UITabBarController alloc]init];
-    self.window.rootViewController = rootController;
     
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
     CGFloat R  = (CGFloat) 211/255.0;
     CGFloat G = (CGFloat) 58/255.0;
     CGFloat B = (CGFloat) 49/255.0;
     CGFloat alpha = (CGFloat) 1.0;
     UIColor *defaultColor = [UIColor colorWithRed:R green:G blue:B alpha:alpha];
-
-    [rootController.tabBar setTintColor:defaultColor];
-    UIViewController *c1 = [[DiscoverViewController alloc]init];
+    [tabBarController.tabBar setTintColor:defaultColor];
+    
+    
+    DiscoverViewController *discoverViewController = [[DiscoverViewController alloc]init];
+    UINavigationController *c1 = [[UINavigationController alloc]initWithRootViewController:discoverViewController];
     c1.view.backgroundColor = [UIColor grayColor];
     c1.tabBarItem.image = [UIImage imageNamed:@"icn_discover"];
     c1.tabBarItem.selectedImage = [UIImage imageNamed:@"icn_discover_prs"];
     c1.tabBarItem.title = @"发现音乐";
     
-    UIViewController *c2 = [[UIViewController alloc]init];
+    MyMusicViewController *myMusicViewController = [[MyMusicViewController alloc]init];
+    UINavigationController *c2 = [[UINavigationController alloc]initWithRootViewController:myMusicViewController];
     c2.view.backgroundColor = [UIColor grayColor];
-    
     c2.tabBarItem.image = [UIImage imageNamed:@"icn_music"];
     c2.tabBarItem.selectedImage = [UIImage imageNamed:@"icn_music_prs"];
     c2.tabBarItem.title = @"我的音乐";
     
-    
-    UIViewController *c3 = [[UIViewController alloc]init];
+    FriendViewController *friendViewController = [[FriendViewController alloc]init];
+    UINavigationController *c3 = [[UINavigationController alloc]initWithRootViewController:friendViewController];
     c3.view.backgroundColor = [UIColor grayColor];
     c3.view.backgroundColor=[UIColor redColor];
     c3.tabBarItem.image = [UIImage imageNamed:@"icn_friend"];
     c3.tabBarItem.selectedImage = [UIImage imageNamed:@"icn_friend_prs"];
     c3.tabBarItem.title = @"朋友";
     
-    
-    UIViewController *c4 = [[UIViewController alloc]init];
+    AccountViewController *accontViewController = [[AccountViewController alloc]init];
+    UINavigationController *c4 = [[UINavigationController alloc]initWithRootViewController:accontViewController];
     c4.view.backgroundColor = [UIColor grayColor];
-    
     c4.tabBarItem.image = [UIImage imageNamed:@"icn_account"];
     c4.tabBarItem.selectedImage = [UIImage imageNamed:@"icn_account_prs"];
     c4.tabBarItem.badgeValue=@"2";
     c4.tabBarItem.title = @"账号";
+    tabBarController.viewControllers = @[c1, c2, c3, c4];
+    MainViewController *rootViewController = [[MainViewController alloc]initWithRootViewController:tabBarController];
     
-    
-    rootController.viewControllers = @[c1, c2, c3, c4];
-
+    self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
     
     return YES;

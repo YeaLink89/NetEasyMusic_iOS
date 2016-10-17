@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8715E1EA1DB277CA00B42464 /* HYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715E1E91DB277CA00B42464 /* HYPageView.m */; };
+		873D1E1D1DB4F7B200FF13F3 /* MyMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D1E1B1DB4F7B200FF13F3 /* MyMusicViewController.m */; };
+		873D1E1E1DB4F7B200FF13F3 /* MyMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D1E1C1DB4F7B200FF13F3 /* MyMusicViewController.xib */; };
+		873D1E221DB4F7C800FF13F3 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D1E201DB4F7C800FF13F3 /* FriendViewController.m */; };
+		873D1E231DB4F7C800FF13F3 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D1E211DB4F7C800FF13F3 /* FriendViewController.xib */; };
+		873D1E271DB4F7F500FF13F3 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D1E251DB4F7F500FF13F3 /* AccountViewController.m */; };
+		873D1E281DB4F7F500FF13F3 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D1E261DB4F7F500FF13F3 /* AccountViewController.xib */; };
+		873D1E2B1DB507DA00FF13F3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D1E2A1DB507DA00FF13F3 /* MainViewController.m */; };
 		8755D1D91D80F0D000709561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1D81D80F0D000709561 /* main.m */; };
 		8755D1DC1D80F0D000709561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1DB1D80F0D000709561 /* AppDelegate.m */; };
-		8755D1DF1D80F0D000709561 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755D1DE1D80F0D000709561 /* ViewController.m */; };
 		8755D1E21D80F0D000709561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8755D1E01D80F0D000709561 /* Main.storyboard */; };
 		8755D1E41D80F0D000709561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8755D1E31D80F0D000709561 /* Assets.xcassets */; };
 		8755D1E71D80F0D000709561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8755D1E51D80F0D000709561 /* LaunchScreen.storyboard */; };
@@ -47,12 +53,21 @@
 /* Begin PBXFileReference section */
 		8715E1E81DB277CA00B42464 /* HYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPageView.h; sourceTree = "<group>"; };
 		8715E1E91DB277CA00B42464 /* HYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPageView.m; sourceTree = "<group>"; };
+		873D1E1A1DB4F7B200FF13F3 /* MyMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusicViewController.h; sourceTree = "<group>"; };
+		873D1E1B1DB4F7B200FF13F3 /* MyMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusicViewController.m; sourceTree = "<group>"; };
+		873D1E1C1DB4F7B200FF13F3 /* MyMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMusicViewController.xib; sourceTree = "<group>"; };
+		873D1E1F1DB4F7C800FF13F3 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		873D1E201DB4F7C800FF13F3 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		873D1E211DB4F7C800FF13F3 /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		873D1E241DB4F7F500FF13F3 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		873D1E251DB4F7F500FF13F3 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		873D1E261DB4F7F500FF13F3 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		873D1E291DB507DA00FF13F3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		873D1E2A1DB507DA00FF13F3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8755D1D41D80F0D000709561 /* NetEasyMusic_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEasyMusic_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8755D1D81D80F0D000709561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8755D1DA1D80F0D000709561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8755D1DB1D80F0D000709561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8755D1DD1D80F0D000709561 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8755D1DE1D80F0D000709561 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8755D1E11D80F0D000709561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8755D1E31D80F0D000709561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8755D1E61D80F0D000709561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -195,22 +210,20 @@
 		87AEF2F31D8D98E900A18220 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8755D1DD1D80F0D000709561 /* ViewController.h */,
-				8755D1DE1D80F0D000709561 /* ViewController.m */,
+				87CB19741DB51F560036AA8B /* discover */,
+				873D1E241DB4F7F500FF13F3 /* AccountViewController.h */,
+				873D1E251DB4F7F500FF13F3 /* AccountViewController.m */,
+				873D1E261DB4F7F500FF13F3 /* AccountViewController.xib */,
 				87AEF2F51D8D9BA700A18220 /* DiscoverViewController.h */,
 				87AEF2F61D8D9BA700A18220 /* DiscoverViewController.m */,
-				876B3AD31DB2823D00A2AC1C /* PlaylistViewController.h */,
-				876B3AD41DB2823D00A2AC1C /* PlaylistViewController.m */,
-				876B3AD51DB2823D00A2AC1C /* PlaylistViewController.xib */,
-				876B3AD81DB283BE00A2AC1C /* RemdViewController.h */,
-				876B3AD91DB283BE00A2AC1C /* RemdViewController.m */,
-				876B3ADA1DB283BE00A2AC1C /* RemdViewController.xib */,
-				876B3ADD1DB283F100A2AC1C /* RadioStationViewController.h */,
-				876B3ADE1DB283F100A2AC1C /* RadioStationViewController.m */,
-				876B3ADF1DB283F100A2AC1C /* RadioStationViewController.xib */,
-				876B3AE21DB2842C00A2AC1C /* ToplistViewController.h */,
-				876B3AE31DB2842C00A2AC1C /* ToplistViewController.m */,
-				876B3AE41DB2842C00A2AC1C /* ToplistViewController.xib */,
+				873D1E1A1DB4F7B200FF13F3 /* MyMusicViewController.h */,
+				873D1E1B1DB4F7B200FF13F3 /* MyMusicViewController.m */,
+				873D1E1C1DB4F7B200FF13F3 /* MyMusicViewController.xib */,
+				873D1E1F1DB4F7C800FF13F3 /* FriendViewController.h */,
+				873D1E201DB4F7C800FF13F3 /* FriendViewController.m */,
+				873D1E211DB4F7C800FF13F3 /* FriendViewController.xib */,
+				873D1E291DB507DA00FF13F3 /* MainViewController.h */,
+				873D1E2A1DB507DA00FF13F3 /* MainViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -228,6 +241,25 @@
 				8715E1E71DB277CA00B42464 /* HYPageView */,
 			);
 			name = Vendor;
+			sourceTree = "<group>";
+		};
+		87CB19741DB51F560036AA8B /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				876B3AE21DB2842C00A2AC1C /* ToplistViewController.h */,
+				876B3AE31DB2842C00A2AC1C /* ToplistViewController.m */,
+				876B3AE41DB2842C00A2AC1C /* ToplistViewController.xib */,
+				876B3ADD1DB283F100A2AC1C /* RadioStationViewController.h */,
+				876B3ADE1DB283F100A2AC1C /* RadioStationViewController.m */,
+				876B3ADF1DB283F100A2AC1C /* RadioStationViewController.xib */,
+				876B3AD81DB283BE00A2AC1C /* RemdViewController.h */,
+				876B3AD91DB283BE00A2AC1C /* RemdViewController.m */,
+				876B3ADA1DB283BE00A2AC1C /* RemdViewController.xib */,
+				876B3AD31DB2823D00A2AC1C /* PlaylistViewController.h */,
+				876B3AD41DB2823D00A2AC1C /* PlaylistViewController.m */,
+				876B3AD51DB2823D00A2AC1C /* PlaylistViewController.xib */,
+			);
+			name = discover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,8 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873D1E231DB4F7C800FF13F3 /* FriendViewController.xib in Resources */,
+				873D1E1E1DB4F7B200FF13F3 /* MyMusicViewController.xib in Resources */,
 				876B3AD71DB2823D00A2AC1C /* PlaylistViewController.xib in Resources */,
 				876B3AE11DB283F100A2AC1C /* RadioStationViewController.xib in Resources */,
+				873D1E281DB4F7F500FF13F3 /* AccountViewController.xib in Resources */,
 				876B3AE61DB2842C00A2AC1C /* ToplistViewController.xib in Resources */,
 				8755D1E71D80F0D000709561 /* LaunchScreen.storyboard in Resources */,
 				8755D1E41D80F0D000709561 /* Assets.xcassets in Resources */,
@@ -367,14 +402,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8755D1DF1D80F0D000709561 /* ViewController.m in Sources */,
 				87AEF2F71D8D9BA700A18220 /* DiscoverViewController.m in Sources */,
+				873D1E1D1DB4F7B200FF13F3 /* MyMusicViewController.m in Sources */,
 				876B3AD61DB2823D00A2AC1C /* PlaylistViewController.m in Sources */,
+				873D1E2B1DB507DA00FF13F3 /* MainViewController.m in Sources */,
 				8755D1DC1D80F0D000709561 /* AppDelegate.m in Sources */,
 				8715E1EA1DB277CA00B42464 /* HYPageView.m in Sources */,
 				876B3AE51DB2842C00A2AC1C /* ToplistViewController.m in Sources */,
 				876B3ADB1DB283BE00A2AC1C /* RemdViewController.m in Sources */,
+				873D1E221DB4F7C800FF13F3 /* FriendViewController.m in Sources */,
 				8755D1D91D80F0D000709561 /* main.m in Sources */,
+				873D1E271DB4F7F500FF13F3 /* AccountViewController.m in Sources */,
 				876B3AE01DB283F100A2AC1C /* RadioStationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

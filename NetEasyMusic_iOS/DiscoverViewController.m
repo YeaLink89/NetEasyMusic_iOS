@@ -23,13 +23,16 @@
 @implementation DiscoverViewController
 
 
-#define kSegMentControlHeight (36)
-#define kIS_IOS7                (kCFCoreFoundationVersionNumber > kCFCoreFoundationVersionNumber_iOS_6_1)
++(void)initialize{
+    
 
-#define kIOS7DIS(X) ([[NSNumber numberWithBool:kIS_IOS7] intValue] * X)
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     NSArray *defaultTitles = @[@"个性推荐",@"歌单", @"主播电台", @"排行榜"];
     HYPageView *pageView = [[HYPageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) withTitles:defaultTitles withViewControllers:@[@"RemdViewController",@"PlaylistViewController", @"RadioStationViewController", @"ToplistViewController"] withParameters:nil];
     pageView.isTranslucent = NO;
@@ -37,6 +40,7 @@
     pageView.unselectedColor = [UIColor blackColor];
     [self.view addSubview:pageView];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
