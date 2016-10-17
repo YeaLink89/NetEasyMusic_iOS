@@ -22,23 +22,18 @@
 
 @implementation DiscoverViewController
 
-
-+(void)initialize{
-    
-
-    
-}
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Do any additional setup after loading the view.
+
+
     NSArray *defaultTitles = @[@"个性推荐",@"歌单", @"主播电台", @"排行榜"];
     HYPageView *pageView = [[HYPageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) withTitles:defaultTitles withViewControllers:@[@"RemdViewController",@"PlaylistViewController", @"RadioStationViewController", @"ToplistViewController"] withParameters:nil];
     pageView.isTranslucent = NO;
     pageView.selectedColor = [UIColor redColor];
     pageView.unselectedColor = [UIColor blackColor];
     [self.view addSubview:pageView];
+    
 }
 
 
