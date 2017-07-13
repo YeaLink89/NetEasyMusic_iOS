@@ -17,6 +17,8 @@
 
 #import "HYPageView.h"
 #import <objc/runtime.h>
+
+//页面有用到runtime吗？
 @interface HYPageView () <UIScrollViewDelegate>
 
 @property (strong, nonatomic) UIView         *topTabView;
@@ -426,6 +428,7 @@
                     view.contentOffset = CGPointMake(0,-offset);
                     frame = CGRectMake(_selfFrame.size.width * i, 0, _selfFrame.size.width, _scrollView.bounds.size.height);
                 }
+                
                 if ([NSStringFromClass([viewController.view class]) isEqualToString:@"UICollectionViewControllerWrapperView"]) {
                     UIScrollView *view = (UIScrollView *)viewController.view.subviews[0];
                     view.contentInset = UIEdgeInsetsMake(offset, 0, 0, 0);
